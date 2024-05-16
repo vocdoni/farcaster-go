@@ -10,7 +10,7 @@ A Go module that facilitates smooth and easy integration with the Farcaster netw
    - [Auth](#auth)
    - [Signer](#signer)
    - [Hub](#hub)
-   - [Warpcast API](#warpcast-api)
+   - [Warpcast Client](#warpcast-client)
    - [Web3](#web3)
 4. [Contributing](#contributing)
 5. [License](#license)
@@ -177,9 +177,9 @@ func main() {
 }
 ```
 
-### Warpcast API
+### Warpcast Client
 
-The `warpcastapi` package provides functions to interact with the Warpcast API.
+The `warpcastclient` package provides access to public functions of the Warpcast API.
 
 **Purpose:**
 - To retrieve user profiles and Ethereum addresses associated with FIDs.
